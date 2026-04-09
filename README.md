@@ -1,4 +1,4 @@
-# COP4710 Final Project — University Database
+# COP4710 Final Project — School Database
 
 A full-stack web app with a React frontend (Vite) and an Express/Node.js backend connected to a MySQL database.
 
@@ -7,7 +7,7 @@ A full-stack web app with a React frontend (Vite) and an Express/Node.js backend
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) (v18+)
-- MySQL server running locally (or accessible remotely)
+- MySQL server running locally
 
 ---
 
@@ -64,12 +64,12 @@ The frontend dev server will be available at `http://localhost:5173` (default Vi
 
 ## API Routes
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `*` | `/api/students` | Student records |
-| `*` | `/api/instructors` | Instructor records |
-| `*` | `/api/courses` | Course records |
-| `*` | `/api/staff` | Staff records |
-| `*` | `/api/enrollments` | Enrollment records |
-| `*` | `/api/grades` | Grade records |
-| `*` | `/api/schedules` | Schedule records |
+| Method | Endpoint           | Description        |
+| ------ | ------------------ | ------------------ |
+| `*`    | `/api/students`    | Student records    |
+| `*`    | `/api/instructors` | Instructor records |
+| `*`    | `/api/courses`     | Course records     |
+| `*`    | `/api/staff`       | Staff records      |
+| `*`    | `/api/enrollments` | Enrollment records |
+| `*`    | `/api/grades`      | Grade records      |
+| `*`    | `/api/schedules`   | Schedule records   |
